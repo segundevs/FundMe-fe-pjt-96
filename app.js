@@ -29,8 +29,6 @@ const prev = () => {
 document.querySelector(".next").addEventListener('click', next);
 document.querySelector(".prev").addEventListener('click', prev);
 
-
-
 dots.forEach((dot, index) => {
   dot.addEventListener("click", () => {
     slider(index)
